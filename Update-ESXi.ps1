@@ -6,6 +6,7 @@
 .NOTES
     Please modify the following variables before running this script: $ScriptPath
 .LINK
+    https://github.com/ukcloudgh/PowerCLI/blob/main/Update-ESXi.ps1
     https://ukconsult.cloud/
 .EXAMPLE
     .\Update-ESXi.ps1 -vCenterCluster clusterA -ESXiHost hostA
