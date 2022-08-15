@@ -5,6 +5,8 @@
    In some environments the risk for transaction processing is too great and we cannot simply upgrade Distributed Switches.
    Instead, we opt to create a new VDS on the required (latest) version and migrate the adapters to the new distributed port groups.
    As part of the upgrade of DVS, this script migrates the NetworkAdapters from one VDP to another
+.LINK
+    https://github.com/ukcloudgh/PowerCLI/edit/main/Migrate-NetworkAdapters-VDP.ps1
 .EXAMPLE
    Update the values of $oldVDPortgroup,$vmExclusions,$PPPath and run the script using existing connection to a vCenter
 #>
